@@ -1,0 +1,37 @@
+/*Mobile first - default CSS will apply to devices
+whose viewport is 767px or less */
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	outline-style: none;
+}
+
+/* Break point for standard tablet size */
+@media (min-width: 992px) {	
+
+}
+
+/* Break point for standard desktop size */
+@media (min-width: 1200px) {
+  
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  li {
+    display: inline;
+    float: left;
+  }
+
+  a {
+    display: block;
+    padding: 8px;
+  }
+
+}
