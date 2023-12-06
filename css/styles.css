@@ -29,6 +29,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #f4dea8;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 li {
@@ -122,6 +125,77 @@ li a {
   background-color: #60b5ff;
 }
 
+.row {
+  text-align: center;
+  border-radius: 10px;
+}
+.column {
+  padding-top: 10px;
+  flex: 50%;
+  text-align: center;
+}
+
+.column h1 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.column ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #f5f1e6;
+
+}
+
+.column li{
+  color: #000;
+  padding: 8px 16px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.artImg {
+  max-width: 15%;
+  max-height: 15%;
+}
+
+.coderImg {
+  max-width: 15%;
+  max-height: 15%;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.pronouns {
+  font-size: 75%;
+  font-weight: 500;
+}
+span.icon {
+  display: inline-block;
+}
+
+.instagram {
+  max-width: 15%;
+  max-height: 15%;
+}
+
+.itchio {
+  max-width: 15%;
+  max-height: 15%;
+}
+
+#socialDiv {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#socialDiv a {
+  font-size: 60px;
+}
+
 
 
 /* Break point for standard tablet size */
@@ -140,8 +214,42 @@ li a {
     max-height: 25%;
   }
 
+  .artImg {
+    max-width: 10%;
+    max-height: 10%;
+  }
+  
+  .coderImg {
+    max-width: 10%;
+    max-height: 10%;
+  }
+
   li a {
     font-size: 20px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .instagram {
+    max-width: 7%;
+    max-height: 7%;
+  }
+  
+  .itchio {
+    max-width: 7%;
+    max-height: 7%;
+  }
+  
+  #socialDiv {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  #socialDiv a {
+    
+    font-size: 60px;
   }
 
 
