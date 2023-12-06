@@ -5,57 +5,34 @@
 	<meta charset="utf-8" />
 	<title>Mochi Masters</title>
 	<link href="css/styles.css" rel="stylesheet" />
+	<style>
+		.list:first-child .active {
+			border-top-right-radius: 10px;
+			border-top-left-radius: 10px;
+			background-color: #ed778a;
+		}
+	</style>
+	
 </head>
 
-<body>
-	<div id="wrapper">
-		<header>
-			<img src="images/MM_MainScreenButton_TextLogo.png" alt="Mochi Masters" class="center">
-		</header>
+	<body>
+		<div id="wrapper">
+			<header>
+				<img src="images/MM_MainScreenButton_TextLogo.png" alt="Mochi Masters" class="center">
+			</header>
 
-		<div class="navBar">
-            <ul>
-                <li class="list">
-									<a href="index.html">
-										<span class "text">Home</span>
-									</a>
-								</li>
-
-								<li class="list">
-									<a href="team.html">
-										<span class "icon"></span>
-										<span class "text">Our Team</span>
-									</a>
-								</li>
-
-								<li class="list">
-									<a href="download.html">
-										<span class "icon"></span>
-										<span class "text">Download</span>
-									</a>
-								</li>
-
-								<li class="list">
-									<a href="socials.html">
-										<span class "icon"></span>
-										<span class "text">Social Media</span>
-									</a>
-								</li>
-            </ul>
+			<div id="navBar">
+							<ul>
+									<li class="list"><a class="active" href="index.html">Home</a></li>
+									<li class="list">	<a href="team.html">Our Team</a></li>
+									<li class="list"><a href="download.html">Download</a></li>
+									<li class="list"><a href="socials.html">Social Media</a></li>
+							</ul>
+			</div><!--End of navBar-->
 
 
+			<script src="js/script.js"></script>
 
-		</div><!--End of navBar-->
-		
-
-
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-			integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-		<script src="js/scripts.js"></script>
-
-	</div> <!--End of div#wrapper-->
-</body>
-
+		</div> <!--End of div#wrapper-->
+	</body>
 </html>
